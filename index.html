@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+     <!-- Link a Font Awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="portada">
+        <div class="social-icons">
+            <a href="https://www.instagram.com/" target="_blank" class="icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.pinterest.com/" target="_blank" class="icon"><i class="fab fa-pinterest"></i></a>
+            <a href="https://www.behance.net/" target="_blank" class="icon"><i class="fab fa-behance"></i></a>
+        </div>
+        <h1 class="main-title">PORTFOLIO</h1>
+        <img src="https://i.pinimg.com/736x/69/35/a6/6935a6a1ae9b1e25fa3d5a944b11cb0f.jpg" alt="Decoración" class="decorative-image">
+    </section>
+    
+    
+    <section id="sobre-mi">
+        <h2 class="subtitle">HOLA, SOY ZARA</h2>
+        <p class="description">
+            Soy diseñadora multimedial con experiencia en la creación de marcas y logotipos, combinando ilustración y diseño gráfico. Disfruto especialmente trabajar en la creación de identidades visuales, desde la construcción de una marca ficticia hasta el desarrollo de interfaces simples.
+        </p>
+    
+        <!-- Nuevo subtítulo y párrafo -->
+        <h2 class="subtitle h2o">SOBRE MI</h2>
+        <p class="description">
+            Siempre me ha fascinado la idea de poder crear y diseñar usando herramientas digitales. El mundo de las tipografías, los colores y las múltiples formas de expresarse visualmente fue lo que me atrajo. Además, disfruto mucho el modelado 3D, y tengo una tableta gráfica que uso para experimentar con la ilustración. Esa combinación entre lo digital y lo manual fue lo que me impulsó a entrar en el mundo del diseño.
+        </p>
+    
+        <!-- Subtítulo y lista de valores -->
+        <h2 class="subtitle h2o">MIS VALORES</h2>
+        <ul class="valores">
+            <li>Empatía</li>
+            <li>Creatividad</li>
+            <li>Curiosidad</li>
+            <li>Estética</li>
+            <li>Pasión</li>
+            <li>Autenticidad</li>
+            <li>Diversidad</li>
+            <li>Determinación</li>
+            <li>Juego lúdico</li>
+        </ul>
+    
+        <!-- Subtítulo y logos de herramientas -->
+        <h2 class="subtitle h2o">MIS HERRAMIENTAS</h2>
+        <div class="tools">
+            <img src="logos/illustrator.png" alt="Illustrator">
+            <img src="logos/photoshop.png" alt="Photoshop">
+            <img src="logos/premiere.png" alt="Premiere">
+            <img src="logos/animate.png" alt="Animate">
+            <img src="logos/figma.png" alt="Figma">
+            <img src="logos/blender.png" alt="Blender">
+        </div>
+    </section>
+    
+    <section id="carrusel">
+        <h2 class="section-title">Mis Proyectos Destacados</h2>
+        <div class="carrusel-container">
+            <div class="carrusel-slide">
+                <img src="https://i.pinimg.com/736x/35/2c/3f/352c3f92dd1044771dc6169049f52262.jpg" alt="Proyecto 1">
+            </div>
+            <div class="carrusel-slide">
+                <img src="https://i.pinimg.com/736x/c1/0a/6f/c10a6fd07fed9e87cbff197084111517.jpg" alt="Proyecto 2">
+            </div>
+            <div class="carrusel-slide">
+                <img src="https://i.pinimg.com/736x/66/ef/94/66ef94b8c5621f5ca35018e9f3168db7.jpg" alt="Proyecto 3">
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section id="proyectos">
+        <h2 class="section-title">Mis Proyectos</h2>
+        <div id="galeria-proyectos" class="gallery">
+            <!-- Las tarjetas de proyecto se añadirán aquí desde JavaScript -->
+        </div>
+    </section>
+    
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form id="contact-form">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="feedback"></div>
+    </section>
+
+    <footer>
+        
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="proyectos.js" defer></script>
+</body>
+</html>
