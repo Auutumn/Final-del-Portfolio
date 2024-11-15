@@ -1,0 +1,22 @@
+[
+  {
+      "nombre": "Modelo de living 3D",
+      "descripcion": "Un modelo detallado de un living en 3D, diseñado para interiores modernos.",
+      "imagen": "https://i.pinimg.com/736x/bf/41/85/bf4185999510ab407af252c028cb4937.jpg"
+  },
+  {
+      "nombre": "Modelo de cocina 3D",
+      "descripcion": "Cocina diseñada en 3D con énfasis en funcionalidad y estética.",
+      "imagen": "https://i.pinimg.com/736x/db/ac/2f/dbac2f147eb9b7f09817e073a9d3edb2.jpg"
+  },
+  {
+      "nombre": "Escenario 3D SG",
+      "descripcion": "Escenario 3D creado para un proyecto de simulación de videojuegos.",
+      "imagen": "https://i.pinimg.com/736x/0d/e0/0c/0de00c9393ad32ff1b23467993c7219c.jpg"
+  },
+  {
+      "nombre": "Escenario de lluvia Telefe",
+      "descripcion": "Escenario 3D diseñado para una producción de Telefe bajo la lluvia.",
+      "imagen": "https://i.pinimg.com/736x/f7/fe/c9/f7fec93288ae94ae855b9d946a8a1d2f.jpg"
+  }
+]
