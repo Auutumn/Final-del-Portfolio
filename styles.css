@@ -242,6 +242,12 @@ header nav ul li a {
     width: 100%;
     height: auto;
     display: block;
+    border-radius: 20px;
+}
+
+.project-card {
+    background-color: #291820;
+    border-radius: 20px;
 }
 
 .project-card h3 {
@@ -255,14 +261,14 @@ header nav ul li a {
 .project-card p {
     font-family: 'Gully', sans-serif;
     font-size: 1em;
-    color: #FBF4F2;
+    color: #FFB9B9;
     padding: 0 10px 15px;
     line-height: 1.5;
 }
 
 .project-card:hover {
     transform: scale(1.05);
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 15px #FE065F;
 }
 
 #contact-form {
@@ -375,7 +381,7 @@ button:hover {
     margin: 0 auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.5s ease-in-out; /* Añadido para transición suave */
+    transition: transform 0.5s ease-in-out; /* Transición suave */
 }
 
 .carrusel-slide {
